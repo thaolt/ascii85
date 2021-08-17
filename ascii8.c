@@ -206,10 +206,10 @@ int main (void)
         0xB4, 0x9C, 0xD9, 0x06, 0x3A, 0xEA, 0xD3, 0xB7
     };
     encoded = Z85_encode (server_public, 32);
-//     puts (encoded);
+    puts (encoded);
     free (encoded);
     encoded = Z85_encode (server_secret, 32);
-//     puts (encoded);
+    puts (encoded);
     free (encoded);
     
     exit (0);
